@@ -1,0 +1,761 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Abhinay Garg : Portfolio</title>
+  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+  <script src="js/jquery.min.js"></script>
+  <link href="css/style.css" rel='stylesheet' type='text/css' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Abhinay Garg's Portfolio" />
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.jpg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/apple-touch-icon.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/apple-touch-icon.jpg">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+
+  <link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  
+  <script type="text/javascript" src="js/move-top.js"></script>
+  <script type="text/javascript" src="js/easing.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $(".scroll").click(function (event) {
+        event.preventDefault();
+        $('html,body').animate({
+          scrollTop: $(this.hash).offset().top
+        }, 1000);
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div id="home" class="header">
+    <div class="container">
+      <div class="top-header">
+        <div class="top-nav">
+          <div class="navigation">
+            <div class="logo">
+              <h1><a href="index.html"><span>I</span> AM</a></h1>
+            </div>
+            <div class="navigation-right">
+              <span class="menu"><img src="images/menu.png" alt=" " /></span>
+              <nav class="link-effect-3" id="link-effect-3">
+                <ul class="nav1 nav nav-wil">
+                  <li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+                  <li><a class="scroll" data-hover="About" href="#about">About</a></li>
+                  <li><a class="scroll" data-hover="Skills" href="#services">Skills</a></li>
+                  <li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
+                  <li><a class="scroll" data-hover="Projects" href="#blogs">Projects</a></li>
+                  <li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
+                </ul>
+              </nav>
+              <script>
+                $("span.menu").click(function () {
+                  $("ul.nav1").slideToggle(300, function () {
+                  });
+                });
+              </script>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <div class="banner-info">
+          <div class="col-md-7 header-right">
+            <h1>Abhinay Garg</h1>
+            <h6>Full-Stack Developer and Java Programmer.</h6>
+            <div class="hero__links">
+              <a href="docs/Abhinay Garg_Resume_CollegeFormat_23June.pdf" target="_blank" class="hero__resume btn" title="Click to view my Resume">View Resume</a>
+              <ul class="hero__social">
+                <li>
+                  <a href="https://github.com/techabhi08" rel="noopener" target="_blank" title="Github">
+                    <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/abhinay-garg-2a3879201/" rel="noopener" title='LinkedIn' target="_blank">
+                    <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/AbhinayGarg15" rel="noopener" target="_blank" title="Twitter">
+                    <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <ul class="address">
+
+              <li>
+                <ul class="address-text">
+                  <li><b>NAME</b></li>
+                  <li>Abhinay Garg</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>D.O.B</b></li>
+                  <li>08-JUNE-2002</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>MOBILE </b></li>
+                  <li>+91 8878798083</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>ADDRESS </b></li>
+                  <li>Madhya Pradesh, India.</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>E-MAIL </b></li>
+                  <li><a href="mailto:abhi.techedu8@gmail.com"> abhi.techedu8@gmail.com</a></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>WEBSITE </b></li>
+                  <li><a href="https://github.com/techabhi08">Abhinay's Profile</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col-md-5 header-left">
+            <img src="images/profile.jpg" alt="">
+          </div>
+          <div class="clearfix"> </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- about -->
+  <div id="about" class="about">
+    <div class="col-md-6 about-left">
+      <div id="owl-demo1" class="owl-carousel owl-carousel2">
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>As a <span>Software Engineer</span></h2>
+            <p><strong>Since 2020,</strong> I have been working on Web Development</a>              
+              and problem solving. I have worked on different tech stacks and keep on exploring about the new ones. I love to work on real
+              life problem statements and find innovative solution for the same.
+              <p>I also joined <a href="https://www.accenture.com/in-en" target="_blank">Accenture</a> as an Advance Application Analyst Summer Intern.
+              I worked as a backend developer and teamed up with the Product admin and testing team to work on the product.</p>
+              <ul>
+                <li><a class="a-btn-a scroll" href="#blogs">My Projects</a></li>
+                <li><a class="a-btn-h scroll" href="#work">Experience</a></li>
+              </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>My <span>Education</span></h2>
+            <p>I've completed my,
+                B.Tech in Computer science from <a href="https://vitbhopal.ac.in/" target="_blank"> Vellore Institute of Technology, VIT Bhopal</a>,
+                  Bhopal, during the period of 2020 - 2024.</p>
+                  <p>Cumulative GPA: 9.08</p>
+                  <p>Schooling from <a href="https://www.sicaschoolnipania.org/" target="_blank">SICA Sr. Sec. School (CBSE)</a>                    
+                    Indore.</p>
+                  <p>12th Percentage: 95.2%</p>
+                  <ul>
+                    <li><a class="a-btn-a scroll" href="#services">Skills</a></li>
+                    <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+                  </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>Free time or <span>Hobbies</span></h2>
+            <p>I enjoy traveling a lot. I have been a professional Table Tennis Player and have keen interest in sports.
+              I love to play Cricket in my leisure time.
+            </p>
+            <p>I also like to explore about new technologies, have a handson on them, 
+              explore about some historic facts, and listen to music.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 about-right">
+
+    </div>
+    <div class="clearfix"> </div>
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <script src="js/owl.carousel.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#owl-demo1").owlCarousel({
+          items: 1,
+          lazyLoad: false,
+          autoPlay: true,
+          navigation: false,
+          navigationText: false,
+          pagination: true,
+        });
+      });
+    </script>
+    <!-- Feedback -->
+    <script>
+      $(document).ready(function () {
+        $("#owl-demo3").owlCarousel({
+          items: 1,
+          lazyLoad: false,
+          autoPlay: true,
+          navigation: false,
+          navigationText: true,
+          pagination: true,
+        });
+      });
+    </script>
+  </div>
+  <!-- /about -->
+  <!-- services -->
+  <div id="services" class="services">
+    <div class="container">
+      <div class="service-head one text-center ">
+        <h4>WHAT I DO</h4>
+        <h3>MY <span>SKILLS</span></h3>
+        <span class="border two"></span>
+      </div>
+      <!-- services-grids -->
+      <div class="wthree_about_right_grids w3l-agile">
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-th-large"></i>
+            </div>
+          </div>
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Front-end Development</h4>
+          </div>
+          <div class="clearfix"> </div>
+          <div class="col-md-12 skill-group-div">
+            <!-- Skill Bars -->
+            <div class="col-md-6 left-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">HTML <i class="val">90%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 right-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">CSS <i class="val">80%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 left-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Bootstrap <i class="val">80%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 right-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">NextJs <i class="val">70%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 left-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Javascript <i class="val">75%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 right-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">ReactJs <i class="val">73%</i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-leaf"></i>
+            </div>
+          </div>
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Backend Development</h4>
+          </div>
+          <div class="clearfix"> </div>
+          <div class="col-md-12 skill-group-div">
+            <!-- Skill Bars -->
+            <div class="progress skill-bar ">
+              <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                <span class="skill">Java <i class="val">95%</i></span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">JavaScript <i class="val">75%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">NodeJS <i class="val">80%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">ExpressJS <i class="val">75%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">SpringBoot <i class="val">70%</i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"></div>
+        <span class="border two"></span>
+        <hr></hr>
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Databases</h4>
+            <ul class="news">
+              <li>MySql</li>
+              <li>MongoDB</li>
+              <li>H2 Memory</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Project Tools</h4>
+            <ul class="news">
+              <li>Hyper</li>
+              <li>Git</li>
+              <li>Confluence</li>
+              <li>Rally</li>
+              <li>Jira</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Tools & IDEs</h4>
+            <ul class="news">
+              <li>VSCode</li>
+              <li>IntelliJ</li>
+              <li>Eclipse</li>
+              <li>Notepad</li>
+            </ul>
+            <ul class="news">
+              <li>Chrome</li>
+              <li>Figma</li>
+              <li>Canva</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Others</h4>
+            <ul class="news">
+              <li>AWS</li>
+              <li>E-Commerce</li>
+              <li>Windows & Linux</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services-grids -->
+  </div>
+  </div>
+  <div id="work" class="work">
+    <div class="container">
+      <div class="service-head text-center">
+        <h4>WHAT I DID</h4>
+        <h3>MY <span>EXPERIENCE</span></h3>
+        <span class="border one"></span>
+      </div>
+      <div class="time-main w3l-agile">
+        <div class="col-md-6 year-info">
+          <ul class="year">
+            <li>JUN 2023 <i class="glyphicon glyphicon-arrow-right"></i> <span id="tillDate"></span></li>
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+        <ul class="col-md-6 timeline">
+          <li>
+            <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title"><a href="https://www.accenture.com/in-en" target="_blank">Accenture India Pvt. Ltd. <i>Bengaluru, India</i></a></h4>
+              </div>
+              <div class="timeline-body">
+                <p>One of the top consulting firms in India - we are powered by ingenuity and incredible diversity combining innovation, intelligence and expertise.</p>
+                <p>During this period of my Internship, I worked upon a Insurance Application and developed the APIs for some endpoints using the SpringBoot with REST API.
+                  I worked with the testers and the Product Admin team to deliver the product with proper documentation. Worked on a number of tools like Jira, Confluence, Rally
+                  and got to learn a lot about cloud development and deployment.
+                </p>
+                <p><strong>Awesome Experience!</strong> Learned a lot from the team.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!--//work-experience-->
+  <!-- top-grids -->
+  <div class="blog" id="blogs">
+    <div class="container">
+      <div class="service-head text-center">
+        <h4>PROJECTS</h4>
+        <h3>MY <span>Projects</span></h3>
+        <span class="border one"></span>
+      </div>
+      <div class="news-grid w3l-agile">
+        <div class="col-md-6 news-text">
+          <h3> <a href="https://sorting-searching-visualizer.web.app/" target="_blank">Searching Sorting Visualizer </a></h3>
+          <ul class="news">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Heroku</li>
+          </ul>
+          <p>Searching Sorting Visualizer is a user friendly tool which helps to understand the common Searching and sorting algorithms by visualizing them.
+            The application provides functionality to change the size of input and the spped of visualization. With help of the effects 
+            created it becomes wasier to understand the internal working with ease.
+          </p>
+          <a href="#" data-toggle="modal" data-target="#searchSorting" class="read hvr-shutter-in-horizontal">Read More</a>
+
+        </div>
+        <div class="col-md-6 news-text">
+          <h3> <a href="https://mapmypath-2424b.web.app/" target="_blank">Map-My-Path</a></h3>
+          <ul class="news">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Heroku</li>
+          </ul>
+          <p>Map My Path is a path finding visualization tool. The project aims to provide an environment to understand how the most important
+            graph algorithm works. There are functionalities like creation of random mazes, walls and to locate and relocate
+            source and destination for the algorithm.
+          </p>
+          <a href="#" data-toggle="modal" data-target="#mapmypath" class="read hvr-shutter-in-horizontal">Read More</a>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="news-grid w3l-agile">
+        <div class="col-md-6 news-img">
+          <a href="#" data-toggle="modal" data-target="#healthyHearts"> <img src="images/HealthyHearts1.jpg" alt=" " class="img-responsive"></a>
+        </div>
+        <div class="col-md-6 news-text">
+          <h3> <a href="https://github.com/AnmolVerma404/Healthy-HearTechs" target="_blank">Healthy-HearTechs </a></h3>
+          <ul class="news">
+            <li>Node.js</li>
+            <li>JavaScript</li>
+            <li>MongoDB</li>
+            <li>Express.js</li>
+            <li>RestAPI</li>
+          </ul>
+          <p>Developed a user-centric healthcare platform that allows patients to choose between allopathic and ayurvedic treatment options. 
+            Helps user to search for nearby hospitals and book appointment. It enables user to keep track of medical records.
+          </p>
+          <a href="#" data-toggle="modal" data-target="#healthyHearts" class="read hvr-shutter-in-horizontal">Read More</a>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="news-grid w3l-agile">
+        <div class="col-md-6 news-img">
+          <a href="#" data-toggle="modal" data-target="#slogerrMdl"> <img src="images/b1.jpg" alt=" " class="img-responsive"></a>
+        </div>
+        <div class="col-md-6 news-text">
+          <h3> <a href="https://github.com/techabhi08/PostGram" target="_blank">PostGram </a></h3>
+          <ul class="news">
+            <li>Node.js</li>
+            <li>React.js</li>
+            <li>JavaScript</li>
+            <li>MongoDB</li>
+            <li>RestAPI</li>
+          </ul>
+          <p>A MERN Stack project where users can post anything over the website, delete or edit their own post, see other people’s post etc. 
+            The motive of project is to make use of all the acquired tech stacks.
+          </p>
+          <a href="https://github.com/techabhi08/PostGram" class="read hvr-shutter-in-horizontal">Read More</a>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!-- top-grids -->
+  <!-- /blog-pop-->
+  <div class="modal ab fade" id="mapmypath" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog about" role="document">
+      <div class="modal-content about">
+        <div class="modal-header">
+          <span class="project-title">Map My Path</span>
+          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body about">
+          <div class="about">
+
+            <div class="about-inner">
+              <div class="col-md-6">
+                <img src="images/mapMyPath.jpg" class="project-img" alt="about" />
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><strong>Project</strong> : Map My Path</li>
+                  <li><strong>Team Size</strong> : 4</li>
+                  <li><strong>Duration</strong> : Dec 2021 - June 2022</li>
+                  <li><strong>Technologies</strong>: HTML, CSS, JavaScript, Firebase.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="about-inner">
+              <div class="project-title my-responsibilit">My Responsibilities</div>
+              <ul>
+                <li> Implemented graph algorithms.</li>
+                <li> UI and front end functionality using Vanilla.</li>
+                <li> Designed the maze generation logic in JavaScript</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal ab fade" id="searchSorting" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog about" role="document">
+      <div class="modal-content about">
+        <div class="modal-header">
+          <span class="project-title">Searching Sorting Visualizer</span>
+          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body about">
+          <div class="about">
+
+            <div class="about-inner">
+              <div class="col-md-6">
+                <img src="images/searchingSorting.png" class="project-img" alt="about" />
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><strong>Project</strong> : Searching Sorting Visualizer</li>
+                  <li><strong>Team Size</strong> : 3</li>
+                  <li><strong>Duration</strong> : Dec 2021 - Feb 2021</li>
+                  <li><strong>Technologies</strong>: HTML, CSS, Javascript, Express.js and Heroku.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="about-inner">
+              <div class="project-title my-responsibilit">My Responsibilities</div>
+              <ul>
+                <li>Implemented the sorting algorithms and main class.</li>
+                <li>Designed complete UI.</li>
+                <li>Implemented entire frontend part for the designed UI.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal ab fade" id="healthyHearts" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog about" role="document">
+      <div class="modal-content about">
+        <div class="modal-header">
+          <span class="project-title">Healthy HearTechs</span>
+          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body about">
+          <div class="about">
+
+            <div class="about-inner">
+              <div class="col-md-6">
+                <img src="images/HealthyHearts2.jpg" class="project-img" alt="about" />
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><strong>Project</strong> : Healthy HearTechs</li>
+                  <li><strong>Team Size</strong> : 4</li>
+                  <li><strong>Duration</strong> : June 2022 - Mar 2023</li>
+                  <li><strong>Technologies</strong>: Node.js, MongoDB, JavaScript, Express.js, REST API, Firebase.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="about-inner">
+              <div class="project-title my-responsibilit">My Responsibilities</div>
+              <ul>
+                <li>Designed the UI for 6 pages</li>
+                <li>Implemented the frontend.</li>
+                <li>Developed logic for user Authentication.</li>
+                <li>Developed the controller and Model files for backend.</li>
+                <li>Implemented logic for user medical history updation.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //blog-pop-->
+
+  <!-- /header -->
+  <div class="footer" id="contact">
+    <div class="container">
+      <div class="service-head one text-center">
+        <h4>CONTACT ME</h4>
+        <h3>GET <span>IN TOUCH WITH ME</span></h3>
+        <span class="border two"></span>
+      </div>
+      <div class="mail_us">
+        <div class="col-md-6 mail_left">
+          <div class="contact-grid1-left">
+            <div class="contact-grid1-left1">
+              <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+              <h4>Contact By Email</h4>
+              <ul>
+                <li>Primary: <a href="mailto:ahi.techedu8@gmail.com">abhi.techedu8@gmail.com</a></li>
+                <li>
+                  Secondary: <a href="mailto:abhinay.garg2020@vitbhopal.ac.in">abhinay.garg2020@vitbhopal.ac.in</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact-grid1-left">
+            <div class="contact-grid1-left1">
+              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+              <h4>Contact By Mobile</h4>
+              <ul>
+                <li>Mobile: +91 8878798083</li>
+                <li>Alternate: +91 7804841453</li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact-grid1-left">
+            <div class="contact-grid1-left1">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+              <h4>Looking For Address</h4>
+              <ul>
+                <li>Address: Indore, Madhya Pradesh, India</li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 mail_right">
+          <form action="#" method="post">
+            <input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}"
+              required="">
+            <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}"
+              required="">
+            <input type="text" name="Mobile number" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}"
+              required="">
+            <textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+            <input type="submit" value="Send">
+
+          </form>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="copy_right text-center">
+        <p class="float-left">&copy; 2023 Profile Abhinay Garg</p>
+        <p class="float-right">Design on top of <a href="http://w3layouts.com/" target="_blank">W3layouts.</a></p>
+        <ul class="hero__social">
+          <li>
+            <a href="https://github.com/techabhi08" rel="noopener" target="_blank" title="GitHub">
+              <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/abhinay-garg-2a3879201/" rel="noopener" target="_blank" title='LinkedIn'>
+              <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/AbhinayGarg15" rel="noopener" target="_blank" title="Twitter">
+              <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- //footer -->
+  <!-- /container -->
+  <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+  <!--start-smooth-scrolling-->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      /*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+      $('.progress .progress-bar').css("width",
+        function () {
+          return $(this).attr("aria-valuenow") + "%";
+        }
+      );
+      $().UItoTop({
+        easingType: 'easeOutQuart'
+      });
+
+    });
+  </script>
+  <!--end-smooth-scrolling-->
+  <!-- //for bootstrap working -->
+  <script src="js/bootstrap.js"></script>
+
+
+</body>
+
+</html>
